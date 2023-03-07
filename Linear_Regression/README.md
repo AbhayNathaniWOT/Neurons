@@ -1,15 +1,13 @@
-# **Linear Regression**
+# **Linear Regression From Scratch**
 
 ---
 
 ## **Steps**
 
-1. ### Training
+### Training
 
 - Initialize Weight as Zero
 - Initialize Bias as Zero
-
-### Given A Data Point
 
 #### Predict All points togather using Matrix Methods
 
