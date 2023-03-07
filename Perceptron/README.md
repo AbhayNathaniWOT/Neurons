@@ -46,3 +46,12 @@ Can Learn More Complex Patterns
 ## Output Results:
 
 <img src="./Media/img5.png" style="height:300px"/>
+
+```js
+//   Red Line
+p = Perceptron(learning_rate=0.00001, n_iters=5)
+//  Black Line
+p = Perceptron(learning_rate=0.0001, n_iters=10)
+//  Blue Line
+p = Perceptron(learning_rate=0.0000001, n_iters=100)
+```
