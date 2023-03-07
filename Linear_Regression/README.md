@@ -29,4 +29,4 @@
 
 - Red Line - reg = LinearRegression(learning_rate=0.01,n_iter=10000)
 - Yellow Line - reg = LinearRegression(learning_rate=0.01, n_iter=100)
-- Linear regression - reg = LinearRegression(learning_rate=0.0001,n_iter=1000)
+- Orange Line - reg = LinearRegression(learning_rate=0.0001,n_iter=1000)
