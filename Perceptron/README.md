@@ -1,4 +1,4 @@
-# **Perceptron**
+# **Perceptron From Scratch**
 
 ---
 
