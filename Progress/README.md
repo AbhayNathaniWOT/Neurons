@@ -13,3 +13,12 @@
 ```
 
 </details>
+
+<details>
+<summary>9th March 2023 Friday</summary>
+
+```js
+1. Neural Network From Scratch
+```
+
+</details>

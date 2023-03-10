@@ -11,7 +11,7 @@
 
 #### Predict All points togather using Matrix Methods
 
-<img src="./Media/img2.png" style="height:300px"/>
+<img src="./Media/img2.png" style="height:300px"/>A
 
 #### Calculate Error
 

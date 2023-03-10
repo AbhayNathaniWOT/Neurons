@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 import matplotlib.pyplot as plt
 
+
 class LinearRegression:
     def __init__(self, learning_rate=0.00001, n_iter=1000):
         self.learning_rate = learning_rate
