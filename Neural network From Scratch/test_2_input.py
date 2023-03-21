@@ -1,17 +1,17 @@
 from sklearn.model_selection import train_test_split
 import numpy as np
 import matplotlib.pyplot as plt
-from NN_from_Scratch import Network, Dense, TanH
+from NN_from_Scratch import Network, Dense, TanH,ReLU
 from mpl_toolkits import mplot3d
 
 
 NN = Network()
-NN.add(Dense(2, 8))
+NN.add(Dense(2, 10))
 NN.add(TanH())
-NN.add(Dense(8, 8))
+NN.add(Dense(10, 10))
 NN.add(TanH())
-NN.add(Dense(8, 1))
-epochs = 1000
+NN.add(Dense(10, 1))
+epochs = 300
 X = np.array([[np.random.uniform(low=-3, high=3),
                np.random.uniform(low=-3, high=3)] for i in range(20000)])
 

@@ -98,6 +98,9 @@ class TanH(Layer):
         return relu_grad * grad_output
 
 
+
+
+
 class SampleLayer(Layer):
     def __init__(self):
         pass

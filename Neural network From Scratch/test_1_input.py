@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 X, y = datasets.make_regression(
     n_samples=1000, n_features=1, noise=20, random_state=1)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
 y_train = y_train.reshape((y_train.shape[0], 1))
 
 NN = Network()
