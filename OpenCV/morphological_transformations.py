@@ -23,7 +23,7 @@ class Cameo(Cameo_Base):
         cv2.createTrackbar("Iteration", title, 1, 20, slider_callback)
 
 
-def morpho_transformations(frame):
+def morpho_transformations(frame,self):
     try:
 
         kernel_size = cv2.getTrackbarPos(

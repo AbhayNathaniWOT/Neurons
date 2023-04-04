@@ -177,7 +177,7 @@ class WindowManger():
         self._isWindowCreated = True
 
     def show(self, frame):
-        frame = self.apply_filter(frame)
+        frame = self.apply_filter(frame,self)
         
         cv2.imshow(self._windowName, frame)
 

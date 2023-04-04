@@ -2,7 +2,7 @@ from cameo import Cameo
 import cv2,numpy as np
 
 
-def redcyan(frame):
+def redcyan(frame,self):
     b,g,r = cv2.split(frame)
     b = cv2.addWeighted(b,0.5,b,0.5,0.0)
     filter_frame = cv2.merge([b,b,r])

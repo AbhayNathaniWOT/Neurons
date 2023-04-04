@@ -8,14 +8,7 @@ from cameo import Cameo as Cameo_Base
 import cv2
 import numpy as np
 
-# We will convert BGR to HSV Model
-# -  As its easy to represent color in HSV model Space than in BGR
 
-# Method :
-#     1. Take Each frame
-#     2. Convert from BGR 2 HSV
-#     3. Threshold HSV image for a range of Intrest Color
-#     4. Extract the blue object alone, we can do whatever we want on that image
 
 
 color_range_lower = np.array([0, 0, 0])
